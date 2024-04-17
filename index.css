@@ -7,8 +7,11 @@ body {
     grid-template-areas:
     "eth eth alphabet"
     "eth eth traveler"
-    "astro cube traveler";
-
+    "astro cube traveler"
+    "cup insta insta"
+    "cup insta insta"
+    "foam foam dimensional"
+    "foam foam dimensional";
 }
 
 #eth {
@@ -29,6 +32,22 @@ body {
 
 #cube {
     grid-area: cube;
+}
+
+#cup {
+    grid-area: cup;
+}
+
+#insta {
+    grid-area: insta;
+}
+
+#foam {
+    grid-area: foam;
+}
+
+#dimensional {
+    grid-area: dimensional;
 }
 
 .project {
