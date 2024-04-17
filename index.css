@@ -3,7 +3,7 @@ body {
 }
 
 .project {
-    width: 500px;
+    width: 600px;
     position: relative;
 }
 
@@ -25,4 +25,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.project .overlay:hover {
+    opacity: 1;
+    cursor: pointer;
+
 }
