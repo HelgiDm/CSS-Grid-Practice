@@ -2,8 +2,37 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.project-grid {
+    display: grid;
+    grid-template-areas:
+    "eth eth alphabet"
+    "eth eth traveler"
+    "astro cube traveler";
+
+}
+
+#eth {
+    grid-area: eth;
+}
+
+#alphabet {
+    grid-area: alphabet;
+}
+
+#traveler {
+    grid-area: traveler;
+}
+
+#astro {
+    grid-area: astro;
+}
+
+#cube {
+    grid-area: cube;
+}
+
 .project {
-    width: 600px;
+    /* width: 600px; */
     position: relative;
 }
 
@@ -37,3 +66,4 @@ body {
     cursor: pointer;
 
 }
+
