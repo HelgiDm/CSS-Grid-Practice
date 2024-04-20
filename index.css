@@ -2,6 +2,21 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+.navbar {
+    display: flex;
+    border: 2px solid red;
+    justify-content: space-between;
+    padding: 64px 0;
+}
+
+.navbar .right img {
+    width: 24px;
+    height: 24px;
+    /* border: 2px solid blue; */
+    /* display: flex; */
+}
+
+
 .project-grid {
     display: grid;
     grid-template-areas:
