@@ -4,16 +4,41 @@ body {
 
 .navbar {
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-between;
     padding: 64px 0;
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.navbar .left {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.navbar .right {
+    /* border: 2px solid blue; */
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .right a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar .right a:hover {
+    text-decoration: underline;
+    color: black;
 }
 
 .navbar .right img {
     width: 24px;
     height: 24px;
-    /* border: 2px solid blue; */
-    /* display: flex; */
 }
 
 
